@@ -1,2 +1,3 @@
 #!/bin/bash
 gcc -c $CFILE -o main.o \
+trying to debug myhh 1-compiler
