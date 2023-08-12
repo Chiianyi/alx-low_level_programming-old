@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- *  * main - entry point
- *   *render variable sizes, printf
- *    * Return: Always 0 (success)
- *     */
+ * main - entry point
+ * size declaration of variables: printf
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-        printf("size of char : %c\n", sizeof(char));
-        printf("size of int : %d\n", sizeof(int));
-        printf("size of long int : %ld\n", sizeof(long int));
-        printf("size of long long int : %lld\n", sizeof(long long int));
-        printf("size of float : %f\n", sizeof(float));
+	printf("size of a char : %d byte(s)\n", sizeof(char));
+	printf("size of an int : %d byte(s)\n", sizeof(int));
+	printf("size of a long int : %d byte(s)\n", sizeof(long int));
+	printf("size of a long long int : %d byte(s)\n", sizeof(long long int));
+	printf("size of a float : %d byte(s)\n", sizeof(float));
 	return (0);
 }
