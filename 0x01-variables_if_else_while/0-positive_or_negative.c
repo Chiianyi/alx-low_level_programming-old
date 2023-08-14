@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main function
- * Description - function prints and presents whether negative or positive
- * return - Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
